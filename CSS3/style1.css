@@ -1,0 +1,31 @@
+#hidd{
+    visibility: hidden;
+}
+
+.card{
+    background-image:url(black-adam.jpg);
+    background-size:500px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight:400 ;
+  color: white;
+  
+
+}
+
+
+.play{
+    padding: 12px;
+}
+
+.like{
+    padding: 12px;
+    padding-right: 5px;
+}
+
+.dislike{
+    padding: 12px;
+    padding-left: 5px;
+}
