@@ -1,7 +1,11 @@
-
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .card{
-    background-image:url(black-adam.jpg);
+    background-image:url(Images/black-adam.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -13,7 +17,7 @@
 }
 
 .card1{
-    background-image:url(resident-evil.jpg);
+    background-image:url(Images/resident-evil.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -21,11 +25,11 @@
   font-size: medium;
   font-weight:400 ;
   color: white;
-  
+
 }
 
 .card2{
-    background-image:url(terminator_dark_fate.jpg);
+    background-image:url(Images/terminator_dark_fate.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -37,7 +41,7 @@
 }
 
 .card3{
-    background-image:url(THE_HERo.jpg);
+    background-image:url(Images/THE_HERo.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -49,7 +53,7 @@
 }
 
 .card4{
-    background-image:url(john-wick-amoled-5120x2880-14686.png);
+    background-image:url(Images/john-wick-amoled-5120x2880-14686.png);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -61,7 +65,7 @@
 }
 
 .card5{
-    background-image:url(brie-larson-the-5120x2880-13266.jpg);
+    background-image:url(Images/brie-larson-the-5120x2880-13266.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -73,7 +77,7 @@
 }
 
 .card6{
-    background-image:url(blue-beetle-13895x4320-12985.jpg);
+    background-image:url(Images/blue-beetle-13895x4320-12985.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -85,7 +89,7 @@
 }
 
 .card7{
-    background-image:url(KGF.jpg);
+    background-image:url(Images/KGF.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
@@ -97,7 +101,7 @@
 }
 
 .card8{
-    background-image:url(kung-fu-panda-4-5120x2880-13895.jpg);
+    background-image:url(Images/kung-fu-panda-4-5120x2880-13895.jpg);
     background-size:400px;
     padding: 2px;
     background-repeat: no-repeat;
