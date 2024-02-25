@@ -1,13 +1,13 @@
 
 import './App.css';
-import Header from './components/header';
-// import Videocard from './components/Videocard';
+// import Header from './components/header';
+ import VideoCard from './components/videoCard';
 
 function App() {
   return (
     <div>
-      <Header/>
-      {/* <Videocard /> */}
+      {/* <Header/> */}
+      <VideoCard />
     </div>
   );
 }
